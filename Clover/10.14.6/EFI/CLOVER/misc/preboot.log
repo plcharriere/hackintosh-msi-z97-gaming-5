@@ -1,0 +1,318 @@
+0:100  0:100  MemLog inited, TSC freq: 3499995888
+0:100  0:000  CPU was calibrated with ACPI PM Timer
+0:100  0:000  
+0:100  0:000  Now is 09.04.2020,  21:21:36 (GMT)
+0:100  0:000  Starting Clover revision: 5109 (master, commit 5a8588318) on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -t GCC53 | -D NO_GRUB_DRIVERS_EMBEDDED --conf=/Users/sergey/src/CloverHackyColor/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 5 | OS: 10.14.6]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(1,GPT,F5621760-7850-45D9-9F64-B26084B138C4,0x28,0x64000) @C6A82A18
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  Clover : Image base = 0xC374D000
+0:100  0:000  SimpleTextEx Status=Success
+0:100  0:000  === [ Get Smbios ] ==============================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 4
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = Kingston
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 6B28214D
+0:100  0:000  SmbiosTable.Type17->PartNumber = KHX1600C10D3/8G   
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:100  0:000  SmbiosTable.Type17->Vendor = 1315
+0:100  0:000  SmbiosTable.Type17->SerialNumber = E7877A10
+0:100  0:000  SmbiosTable.Type17->PartNumber = CT102464BA160B.C16
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 4096MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = Kingston
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 6E28244D
+0:100  0:000  SmbiosTable.Type17->PartNumber = KHX1600C10D3/8G   
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  SmbiosTable.Type17->Speed = 1600MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:100  0:000  SmbiosTable.Type17->Vendor = 1315
+0:100  0:000  SmbiosTable.Type17->SerialNumber = E7877856
+0:100  0:000  SmbiosTable.Type17->PartNumber = CT102464BA160B.C16
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'MS-7917' with board 'Z97 GAMING 5 (MS-7917)'
+0:100  0:000  === [ GetCPUProperties ] ========================
+0:100  0:000  CPU Vendor = 756E6547 Model=306C3
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  BrandString = Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz
+0:100  0:000   The CPU supported turbo
+0:100  0:000  MSR 0x35               40004
+0:100  0:000  MSR 0xE2 before patch 1E000400
+0:100  0:000  MSR 0xCE              00080838_80838F3012300
+0:100  0:000  corrected FLEX_RATIO = E0000
+0:100  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 35.0/8
+0:100  0:000  Turbo: 37/38/39/39
+0:100  0:000  Features: 0x77FAFBBFBFEBFBFF
+0:100  0:000  Threads: 4
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 100 MHz
+0:100  0:000  CPU: 3500 MHz
+0:100  0:000  TSC: 3500 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  ExternalClock: 25 MHz
+0:100  0:000  === [ GetDevices ] ==============================
+0:100  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/AcpiAdr(0x80010100)
+0:100  0:000  PCI (00|00:00.00) : 8086 0C00 class=060000
+0:100  0:000  PCI (00|00:01.00) : 8086 0C01 class=060400
+0:100  0:000  PCI (00|00:01.01) : 8086 0C05 class=060400
+0:100  0:000  PCI (00|02:00.00) : 10DE 13C2 class=030000
+0:100  0:000   - GFX: Model=Asus GeForce GTX 970 family 1FF (NVidia unknown)
+0:100  0:000  PCI (00|02:00.01) : 10DE 0FBB class=040300
+0:100  0:000   - HDMI Audio: 
+0:100  0:000  PCI (00|00:02.00) : 8086 0412 class=030000
+0:100  0:000   - GOP: Provided by device
+0:100  0:000   - GFX: Model=Intel HD Graphics 4600 (Intel)
+0:100  0:000  PCI (00|00:03.00) : 8086 0C0C class=040300
+0:100  0:000  PCI (00|00:14.00) : 8086 8CB1 class=0C0330
+0:100  0:000  PCI (00|00:16.00) : 8086 8CBA class=078000
+0:100  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:1A.00) : 8086 8CAD class=0C0320
+0:100  0:000  PCI (00|00:1B.00) : 8086 8CA0 class=040300
+0:100  0:000  PCI (00|00:1C.00) : 8086 8C90 class=060400
+0:100  0:000  PCI (00|00:1C.03) : 8086 8C96 class=060400
+0:100  0:000  PCI (00|04:00.00) : 1969 E091 class=020000
+0:100  0:000   - LAN: 0 Vendor=Atheros
+0:100  0:000  PCI (00|00:1D.00) : 8086 8CA6 class=0C0320
+0:100  0:000  PCI (00|00:1F.00) : 8086 8CC4 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 8C82 class=010601
+0:100  0:000  PCI (00|00:1F.03) : 8086 8CA2 class=0C0500
+0:100  0:000  === [ GetDefaultSettings ] ======================
+0:100  0:000  Clover load options size = 4 bytes
+0:102  0:002  CheckOEMPathExists tried EFI\CLOVER\OEM\MS-7917--00-00-00-00-00-00. Dir not exists
+0:102  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Z97 GAMING 5 (MS-7917)\UEFI. Dir not exists
+0:102  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\MS-7917. Dir not exists
+0:102  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\MS-7917-3500. Dir not exists
+0:102  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Z97 GAMING 5 (MS-7917). Dir not exists
+0:102  0:000  CheckOEMPathExists tried EFI\CLOVER\OEM\Z97 GAMING 5 (MS-7917)-3500. Dir not exists
+0:102  0:000  set OEMPath by default: EFI\CLOVER
+0:110  0:007  EFI\CLOVER\config.plist loaded: Success
+0:110  0:000  === [ GetListOfThemes ] =========================
+0:110  0:000  - [00]: Clovy
+0:118  0:008  === [ Found config plists ] =====================
+0:118  0:000  - config.plist
+0:125  0:006  === [ GetEarlyUserSettings ] ====================
+0:125  0:000  timeout set to 0
+0:125  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:125  0:000  KernelToPatch: 2 requested
+0:125  0:000   - [00]: Disable panic kext logging on 10.14 Release kernel :: MatchOS: 10.14 :: data len: 6
+0:125  0:000   - [01]: Disable panic kext logging on 10.13 Release kernel :: MatchOS: 10.13 :: data len: 6
+0:125  0:000  Default theme: Clovy
+0:125  0:000  === [ LoadDrivers ] =============================
+0:128  0:002  Loading FSInject.efi  status=Success
+0:129  0:001  Loading AudioDxe.efi  status=Success
+0:130  0:001   - driver needs connecting
+0:130  0:000  Loading DataHubDxe.efi  status=Success
+0:134  0:003  Loading SMCHelper.efi  status=Success
+0:135  0:000  Loading AptioInputFix.efi  status=Success
+0:136  0:001  Loading ApfsDriverLoader.efi  status=Success
+0:137  0:000   - driver needs connecting
+0:137  0:000  Loading VBoxHfs.efi  status=Success
+0:137  0:000   - driver needs connecting
+0:137  0:000  Loading UsbMouseDxe.efi  status=Success
+0:138  0:000   - driver needs connecting
+0:138  0:000  Loading AptioMemoryFix.efi  status=Success
+0:139  0:001  Loading EmuVariableUefi.efi  status=Success
+0:140  0:000  EmuVariableUefi Initialize: VariableCommonInitialize = Success, orig services stored, install gEmuVariableControlProtocolGuid = Success
+0:140  0:000  4 drivers needs connecting ...
+0:140  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:140  0:000  APFS driver loaded
+0:140  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+6:420  6:280  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+6:432  0:011  === [ InitScreen ] ==============================
+6:432  0:000  Console modes reported: 4, available modes:
+6:432  0:000   - [01]: 80x25
+6:432  0:000   - [02]: 80x50
+6:432  0:000   - [03]: 100x31
+6:432  0:000   - [04]: 128x40 (current mode)
+6:432  0:000  SetScreenResolution: 1920x1080 - setting Mode 4
+6:652  0:220  Video mode change to mode #4: Success
+6:652  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(1,GPT,F5621760-7850-45D9-9F64-B26084B138C4,0x28,0x64000)
+6:652  0:000  new SelfHandle=C6A82A18
+6:652  0:000  === [ GetMacAddress ] ===========================
+6:652  0:000  MAC address of LAN #0= 44:8A:5B:D7:4D:3D:
+6:652  0:000  === [ ScanSPD ] =================================
+6:652  0:000  Scanning SMBus [8086:8CA2], mmio: 0xF7918004, ioport: 0xF040, hostc: 0x11
+6:671  0:019  Slot: 0 Type 24 4096MB 1600MHz Vendor=Kingston PartNo=KHX1600C10D38G SerialNo= 6 B 2 8 2 1 4 D
+6:690  0:019  Slot: 1 Type 24 8192MB 1600MHz Vendor=Crucial Technology PartNo=CT102464BA160B.C16 SerialNo= E 7 8 7 7 A 1 0
+6:709  0:019  Slot: 2 Type 24 4096MB 1600MHz Vendor=Kingston PartNo=KHX1600C10D38G SerialNo= 6 E 2 8 2 4 4 D
+6:728  0:019  Slot: 3 Type 24 8192MB 1600MHz Vendor=Crucial Technology PartNo=CT102464BA160B.C16 SerialNo= E 7 8 7 7 8 5 6
+6:729  0:000  === [ GetAcpiTablesList ] =======================
+6:729  0:000  Get Acpi Tables List from RSDT:
+6:729  0:000   - [00]: FACP  A M I len=132
+6:729  0:000   - [01]: APIC  A M I len=114
+6:729  0:000   - [02]: FPDT  A M I len=68
+6:729  0:000   - [03]: FIDT  A M I len=156
+6:729  0:000   - [04]: ASF!   HCG len=165
+6:729  0:000   - [05]: SSDT  Ther_Rvp len=3197
+6:729  0:000   - [06]: SSDT  Cpu0Ist len=1337
+6:729  0:000   - [07]: SSDT  CpuSsdt len=2932
+6:729  0:000   - [08]: MCFG  A M I len=60
+6:729  0:000   - [09]: HPET  A M I len=56
+6:729  0:000   - [10]: SSDT  SataTabl len=877
+6:729  0:000   - [11]: SSDT  SaSsdt  len=22581
+6:729  0:000   - [12]: UEFI  A M I len=66
+6:729  0:000   - [13]: BGRT  A M I len=56
+6:729  0:000  Calibrated TSC Frequency = 3499995888 = 3499MHz
+6:729  0:000  === [ GetUserSettings ] =========================
+6:729  0:000  USB FixOwnership: yes
+6:729  0:000  Dropping 3 tables:
+6:729  0:000   - [00]: Drop table  signature="DMAR" (52414D44)
+6:729  0:000           - set table: 52414D44,                0 to drop: no
+6:729  0:000   - [01]: Drop table  signature="SSDT" (54445353) table-id="CpuPm" (      6D50757043)
+6:729  0:000           - set table: 54445353,       6d50757043 to drop: no
+6:729  0:000   - [02]: Drop table  signature="SSDT" (54445353) table-id="Cpu0Ist" (  74734930757043)
+6:729  0:000           - set table: 54445353,   74734930757043 to drop: yes
+6:729  0:000   - final DSDT Fix mask=1FE7B1D5
+6:729  0:000  PatchesDSDT: 6 requested
+6:729  0:000   - [00]: (Add _SUN property for GIGE) lenToFind: 18, lenToReplace: 25, Target Bridge: 
+6:729  0:000    patch disabled at config
+6:729  0:000   - [01]: (Rename GFX0 to IGPU) lenToFind: 4, lenToReplace: 4, Target Bridge: 
+6:729  0:000   - [02]: (Rename HDEF to AZAL) lenToFind: 4, lenToReplace: 4, Target Bridge: 
+6:729  0:000    patch disabled at config
+6:729  0:000   - [03]: (Rename oem _DSM to ZDSM) lenToFind: 4, lenToReplace: 4, Target Bridge: 
+6:729  0:000   - [04]: (Rename HECI to IMEI) lenToFind: 4, lenToReplace: 4, Target Bridge: 
+6:729  0:000   - [05]: (change HDAS to HDEF) lenToFind: 4, lenToReplace: 4, Target Bridge: 
+6:729  0:000  Devices to rename 1
+6:729  0:000  PXSX:RP01:PCI0:#_SB:->will be renamed to ARPT
+6:729  0:000  Using ProductName from config: iMac15,1
+6:729  0:000  Found same BiosVersion in clover and config
+6:729  0:000  BiosVersion: IM151.88Z.F000.B00.2002052035
+6:729  0:000  BiosReleaseDate: 02/05/2020
+6:729  0:000  Using EfiVersion from clover: 233.0.0.0.0
+6:729  0:000  Using FirmwareFeatures from config: 0xF80FE177
+6:729  0:000  Using FirmwareFeaturesMask from config: 0xFF1FFF7F
+6:729  0:000  Board-ID set from config as Mac-42FD25EABCABB274
+6:729  0:000  BoardType: 0xA
+6:729  0:000  ChassisType: 0xD
+6:730  0:000  === [ Found DSDT tables ] =======================
+7:031  0:301  === [ ScanVolumes ] =============================
+7:031  0:000  Found 14 volumes with blockIO
+7:031  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)
+7:032  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0xFFFF,0x0)
+7:032  0:000          Result of bootcode detection: bootable unknown (legacy)
+7:032  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)
+7:033  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,088C8B3A-35B9-4AA3-9FEC-15CB5AD3CEBC,0x800,0xF9800)
+7:033  0:000          Result of bootcode detection: bootable Windows (vista,win)
+7:033  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,6598EC0F-C433-4BF9-A32C-770828BCF90D,0xFA000,0x32000)
+7:034  0:000          Result of bootcode detection: bootable Windows (vista,win)
+7:037  0:002  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,D4256516-B4B6-4CA0-84DC-0A4F1BC2DB3F,0x12C000,0x8000)
+7:037  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6CC324A7-1476-4F7F-B20A-5E23A6173803,0x134000,0x1BDF0000)
+7:038  0:000          Result of bootcode detection: bootable Windows (vista,win)
+7:038  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0xFFFF,0x0)\HD(1,MBR,0x0B98A566,0x800,0x74705000)
+7:039  0:000          Result of bootcode detection: bootable Windows (vista,win)
+7:039  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(1,GPT,F5621760-7850-45D9-9F64-B26084B138C4,0x28,0x64000)
+7:039  0:000          Result of bootcode detection: bootable unknown (legacy)
+7:045  0:005          This is SelfVolume !!
+7:045  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(2,GPT,545254DE-7ECB-4BAB-9A3F-CB730CB17CAF,0x64028,0x1BEC0460)
+7:045  0:000          Result of bootcode detection: bootable unknown (legacy)
+7:045  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(2,GPT,545254DE-7ECB-4BAB-9A3F-CB730CB17CAF,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,292307FE21D4764BBDD840BF3E691F7A)
+7:045  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(2,GPT,545254DE-7ECB-4BAB-9A3F-CB730CB17CAF,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,026997DD731AD64696C0F34CD8360871)
+7:045  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(2,GPT,545254DE-7ECB-4BAB-9A3F-CB730CB17CAF,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,AD7D77244E806E4BA6F7893248C927CD)
+7:046  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(2,GPT,545254DE-7ECB-4BAB-9A3F-CB730CB17CAF,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,C02DF7BDDBF512439E15749296BBE777)
+7:046  0:000  Searching volumes for latest nvram.plist ...
+7:046  0:000  loaded Status=Not Found
+7:046  0:000  PutNvramPlistToRtVars: nvram.plist not found
+7:046  0:000  found 3 handles with audio
+7:046  0:000  No AudioIoDevice stored
+7:046  0:000  no stored audio parameters
+7:046  0:000  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+7:046  0:000  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+7:046  0:000  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+7:046  0:000  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+7:046  0:000  Found Audio Device Intel Haswell HDMI (HDMI) at index 4
+7:046  0:000  Found Audio Device Realtek ALC1150 (LineOut) at index 5
+7:046  0:000  Found Audio Device Realtek ALC1150 (LineOut) at index 6
+7:046  0:000  Found Audio Device Realtek ALC1150 (LineOut) at index 7
+7:046  0:000  Found Audio Device Realtek ALC1150 (LineOut) at index 8
+7:046  0:000  Found Audio Device Realtek ALC1150 (Headphones) at index 9
+7:046  0:000  === [ InitXTheme ] ==============================
+7:046  0:000  use night theme
+7:072  0:026  Theme view-bounds: w=1366.000000 h=768.000000 units=px
+7:072  0:000  using scale 1.406250
+7:211  0:139   Background parsed [1921, 1080]
+7:212  0:000  Banner position at parse [0,0]
+7:212  0:000  Banner position at parse [885,137]
+7:213  0:001  Banner parsed
+7:213  0:000   parsed banner->width=180 height=254
+7:235  0:022  main entry size = 202
+7:236  0:000  main entry size = 202
+7:248  0:012  Using vector theme 'Clovy' (EFI\CLOVER\themes\Clovy)
+7:248  0:000  chosen theme Clovy
+7:248  0:000  file sound read: sound_night.wav Not Found
+7:250  0:002    Channels: 2  Sample rate: 8000 Hz  Bits: 16
+7:250  0:000  output to channel 0 with volume 0, len=126400
+7:250  0:000   sound channels=2 bits=16 freq=8000
+7:250  0:000  sound play end with status=Not Found
+7:504  0:253  theme inited
+7:504  0:000  Chosen theme Clovy
+7:504  0:000  after NVRAM boot-args=
+7:504  0:000  === [ Dump SMC keys from NVRAM ] ================
+7:504  0:000  found AppleSMC protocol
+7:504  0:000  Registered 16 SMC keys
+7:504  0:000  Entry scan disabled
+7:504  0:000  === [ AddCustomTool ] ===========================
+7:504  0:000  EmuVariable InstallEmulation: EFI_ALREADY_STARTED
+7:504  0:000  === [ GetEfiBootDeviceFromNvram ] ===============
+7:504  0:000  Default boot entry not found
+7:504  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
+7:574  0:069  GUI ready
+33:424  25:850  ReinitSelfLib after theme change
+33:424  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(1,GPT,F5621760-7850-45D9-9F64-B26084B138C4,0x28,0x64000)
+33:424  0:000  new SelfHandle=C6A82A18
+33:424  0:000  === [ ScanVolumes ] =============================
+33:424  0:000  Found 14 volumes with blockIO
+33:424  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)
+33:517  0:092  - [01]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0xFFFF,0x0)
+33:518  0:000          Result of bootcode detection: bootable unknown (legacy)
+33:518  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)
+33:518  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,088C8B3A-35B9-4AA3-9FEC-15CB5AD3CEBC,0x800,0xF9800)
+33:519  0:000          Result of bootcode detection: bootable Windows (vista,win)
+33:519  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,6598EC0F-C433-4BF9-A32C-770828BCF90D,0xFA000,0x32000)
+33:519  0:000          Result of bootcode detection: bootable Windows (vista,win)
+33:519  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(3,GPT,D4256516-B4B6-4CA0-84DC-0A4F1BC2DB3F,0x12C000,0x8000)
+33:520  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(4,GPT,6CC324A7-1476-4F7F-B20A-5E23A6173803,0x134000,0x1BDF0000)
+33:521  0:000          Result of bootcode detection: bootable Windows (vista,win)
+33:521  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x2,0xFFFF,0x0)\HD(1,MBR,0x0B98A566,0x800,0x74705000)
+33:535  0:014          Result of bootcode detection: bootable Windows (vista,win)
+33:535  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(1,GPT,F5621760-7850-45D9-9F64-B26084B138C4,0x28,0x64000)
+33:535  0:000          Result of bootcode detection: bootable unknown (legacy)
+33:535  0:000          This is SelfVolume !!
+33:535  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(2,GPT,545254DE-7ECB-4BAB-9A3F-CB730CB17CAF,0x64028,0x1BEC0460)
+33:536  0:000          Result of bootcode detection: bootable unknown (legacy)
+33:536  0:000  - [10]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(2,GPT,545254DE-7ECB-4BAB-9A3F-CB730CB17CAF,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,292307FE21D4764BBDD840BF3E691F7A)
+33:536  0:000  - [11]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(2,GPT,545254DE-7ECB-4BAB-9A3F-CB730CB17CAF,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,026997DD731AD64696C0F34CD8360871)
+33:536  0:000  - [12]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(2,GPT,545254DE-7ECB-4BAB-9A3F-CB730CB17CAF,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,AD7D77244E806E4BA6F7893248C927CD)
+33:536  0:000  - [13]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x3,0xFFFF,0x0)\HD(2,GPT,545254DE-7ECB-4BAB-9A3F-CB730CB17CAF,0x64028,0x1BEC0460)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,C02DF7BDDBF512439E15749296BBE777)
+33:536  0:000  found 3 handles with audio
+33:536  0:000  No AudioIoDevice stored
+33:536  0:000  no stored audio parameters
+33:536  0:000  Found Audio Device Nvidia (Unknown) (HDMI) at index 0
+33:536  0:000  Found Audio Device Nvidia (Unknown) (HDMI) at index 1
+33:536  0:000  Found Audio Device Nvidia (Unknown) (HDMI) at index 2
+33:536  0:000  Found Audio Device Nvidia (Unknown) (HDMI) at index 3
+33:536  0:000  Found Audio Device Intel Haswell HDMI (HDMI) at index 4
+33:536  0:000  Found Audio Device Realtek ALC1150 (LineOut) at index 5
+33:536  0:000  Found Audio Device Realtek ALC1150 (LineOut) at index 6
+33:536  0:000  Found Audio Device Realtek ALC1150 (LineOut) at index 7
+33:536  0:000  Found Audio Device Realtek ALC1150 (LineOut) at index 8
+33:536  0:000  Found Audio Device Realtek ALC1150 (Headphones) at index 9
+33:536  0:000  theme inited
+33:536  0:000  Chosen theme Clovy
+33:536  0:000  after NVRAM boot-args=
+33:536  0:000  Entry scan disabled
+33:536  0:000  === [ AddCustomTool ] ===========================
+33:536  0:000  EmuVariable InstallEmulation: orig vars copied, emu.var.services installed, CreateEvent VirtualAddressChange = Success, CreateEvent ExitBootServices = Success, set Status=Success
+33:549  0:012  === [ GetEfiBootDeviceFromNvram ] ===============
+33:549  0:000  Default boot entry not found
+33:549  0:000  EmuVariable UninstallEmulation: CloseEvent = Success, original var services restored
