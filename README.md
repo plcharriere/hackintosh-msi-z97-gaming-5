@@ -1,4 +1,4 @@
-# Hackintosh-Z97G5
+# Hackintosh-MSI-Z97-GAMING-5
 
 This repository contains my EFI folders and bootloaders configurations to boot macOS on my MSI Z97 Gaming 5 motherboard.
 
@@ -6,7 +6,7 @@ If you want to use them, don't forget to generate your own SMBIOS and update you
 
 ### Specifications :
 
-- Motherboard : [MSI Z97 Gaming 5](https://msi.com/Motherboard/z97-gaming-5.html)
+- Motherboard : [MSI Z97 GAMING 5](https://msi.com/Motherboard/z97-gaming-5.html)
 - CPU : [Intel Core i5-4690k](https://ark.intel.com/content/www/us/en/ark/products/80811/intel-core-i5-4690k-processor-6m-cache-up-to-3-90-ghz.html)
 - GPU : Intel HD Graphics 4600
 
