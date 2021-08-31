@@ -1,4 +1,4 @@
-# Hackintosh-MSI-Z97-GAMING-5
+# Hackintosh MSI Z97 GAMING 5
 
 This repository contains my EFI folders and bootloaders configurations to boot macOS on my MSI Z97 Gaming 5 motherboard.
 
