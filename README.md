@@ -27,3 +27,4 @@ If you want to use them, don't forget to generate your own SMBIOS and update you
 - [OpenCore Bootloader](https://github.com/acidanthera/OpenCorePkg)
 - [Clover Bootloader](https://github.com/CloverHackyColor/CloverBootloader)
 - [acidanthera](https://github.com/acidanthera) for OpenCore & Kexts
+- [Dortania](https://dortania.github.io/getting-started/) for everything
